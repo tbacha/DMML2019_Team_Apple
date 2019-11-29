@@ -2,7 +2,9 @@ Read me file
 
 The goal of the project is to predict if a Kickstarter project will fail or succed depending on its informations.
 
-Our starting point is this dataset from Kaggel: https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
+Our starting point is this dataset from Kaggel: https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html You can also find it on the Data file in csv format.
+
+Our executable code is in the code file. It's a ipynb format.
 
 On this dataset, we can find around 375'000 Kikckstarter project's informations. We have informations such as the name of the project, its category, the important dates, the money they need and if the project was a sucess or a fail.
 
