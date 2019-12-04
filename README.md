@@ -1,13 +1,26 @@
-Read me file
+# Gathering Insight from Kickstarter Data
 
-The goal of the project is to predict if a Kickstarter project will fail or succed depending on its informations.
+_A project by Team Apple (Data Mining & Machine Learning, HEC Lausanne, Fall 2019)_
 
-Our starting point is this dataset from Kaggel: https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html You can also find it on the Data file in csv format.
+## Team Members
+* Tarik BACHA
+* Florian EMERY
+* Nicolas MAUROUX
+* Frederic SPYCHER
 
-Our executable code is in the code file. It's a ipynb format.
+## Project Structure
 
-On this dataset, we can find around 375'000 Kikckstarter project's informations. We have informations such as the name of the project, its category, the important dates, the money they need and if the project was a sucess or a fail.
+### /code
+This folder contains **2 Jupyter notebooks**:
 
-First, we decided to delete the row about the project that are not either fail or succed. It does not represent a large part of our database. We then had to clean the datas because we found some weird row. For exemple, we have succesful project data has no contributor or who earned nothing.
+* `Kickstarter_notebook_Team_Apple_EDA.ipynb`: the first part of the project; contains an introduction, explanations about the data cleaning process, as well as the exploratory data analysis (EDA).
+* `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning models trained in the course of this project, with some conclusions.
+    * **NB**: Keras and Tensorflow have to be installed for the neural network to run.
 
-To have a better visualization of our database, we made some EDA that you can find in the notebook. This helped us to have the first insights and to know in which direction we will go with our machine learning tools.
+As well as the `cleaning.py` module, which contains the cleaned version of the dataset used in the ML notebook.
+
+### /data
+This folder contains the original dataset, retrieved from [https://kaggle.com/kemical/kickstarter-projects](https://kaggle.com/kemical/kickstarter-projects).
+
+### /documents
+This folder contains the final PowerPoint presentation.
