@@ -19,7 +19,13 @@ This folder contains **2 Jupyter notebooks**:
 
 As well as **2 Python codes**:
 * `cleaning.py`: contains the cleaned version of the dataset, imported in the ML notebook.
-* `custom_functions.py`: in order to make it easier to play with feature selection and scaling/encoding types, a custom "train_test_split" function was implemented in this file.
+* `custom_functions.py`: in order to make it easier to play with feature selection and scaling/encoding types, a custom _train_test_split_ function was implemented in this file. Parameters:
+    * `data`: pandas DataFrame containing the dataset
+    * `predict`: feature to use as dependent variable
+    * `rseed`: random seed for the _train_test_split_ function
+    * `scaling`: scaling scheme for numerical values ("std" for z-score normalization, "minmax" for min-max normalization)
+    * `encoding`: encoding scheme for categorical values ("onehot" for one-hot encoding, "label" for label encoding)
+    * `features`: array of features to be used as independent variables
 
 ### /data
 This folder contains the original dataset, retrieved from [https://kaggle.com/kemical/kickstarter-projects](https://kaggle.com/kemical/kickstarter-projects).
