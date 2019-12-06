@@ -34,7 +34,7 @@ def custom_split(data, predict, rseed, scaling, encoding, features):
             time_mm = pd.DataFrame(mm.fit_transform(pd.to_numeric(data["elapsed_time"]).to_numpy().reshape(-1, 1)))
             X = pd.concat((X, time_mm), axis=1)
         else:
-            X = pd.concat((X, pd.to_numeric(df["elapsed_time"])), axis=1)
+            X = pd.concat((X, pd.to_numeric(data["elapsed_time"])), axis=1)
             
     if "category" in features:
         if encoding == "onehot":
