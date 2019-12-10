@@ -16,7 +16,7 @@ To make the project work smoothly, it is advised to download all the files and r
 This folder contains **2 Jupyter notebooks**:
 
 * `Kickstarter_notebook_Team_Apple_EDA.ipynb`: the first part of the project; contains an introduction, explanations about the data cleaning process, as well as the exploratory data analysis (EDA).
-* `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning models trained in the course of this project, with some conclusions.
+* `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning (ML) models trained in the course of this project, with some conclusions.
     * **NB**: Keras and Tensorflow have to be installed for the neural network to run.
 
 As well as **2 Python codes**:
@@ -27,6 +27,8 @@ As well as **2 Python codes**:
     * `rseed`: random seed for the _train_test_split_ function
     * `scaling`: scaling scheme for numerical values ("std" for z-score normalization, "minmax" for min-max normalization)
     * `encoding`: encoding scheme for categorical values ("onehot" for one-hot encoding, "label" for label encoding)
+    * `pca`: number of components for PCA dimensionality reduction (_False_ not to use PCA, otherwise integer)
+    * `poly`: degree for polynomial functions (_False_ not to use polynomial features, otherwise integer)
     * `features`: array of features to be used as independent variables
 
 ### /data
