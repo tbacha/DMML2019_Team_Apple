@@ -27,6 +27,8 @@ As well as **2 Python codes**:
     * `rseed`: random seed for the _train_test_split_ function
     * `scaling`: scaling scheme for numerical values ("std" for z-score normalization, "minmax" for min-max normalization)
     * `encoding`: encoding scheme for categorical values ("onehot" for one-hot encoding, "label" for label encoding)
+    * `pca`: number of components for PCA dimensionality reduction (_False_ not to use PCA, otherwise integer)
+    * `poly`: degree for polynomial functions (_False_ not to use polynomial features, otherwise integer)
     * `features`: array of features to be used as independent variables
 
 ### /data
