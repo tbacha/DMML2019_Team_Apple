@@ -16,7 +16,7 @@ To make the project work smoothly, it is advised to download all the files and r
 This folder contains **2 Jupyter notebooks**:
 
 * `Kickstarter_notebook_Team_Apple_EDA.ipynb`: the first part of the project; contains an introduction, explanations about the data cleaning process, as well as the exploratory data analysis (EDA).
-* `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning models trained in the course of this project, with some conclusions.
+* `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning (ML) models trained in the course of this project, with some conclusions.
     * **NB**: Keras and Tensorflow have to be installed for the neural network to run.
 
 As well as **2 Python codes**:
