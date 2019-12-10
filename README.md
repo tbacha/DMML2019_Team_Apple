@@ -10,6 +10,8 @@ _A project by Team Apple (Data Mining & Machine Learning, HEC Lausanne, Fall 201
 
 ## Project Structure
 
+To make the project work smoothly, it is advised to download all the files and run the notebooks locally (on Jupyter, for example). If using an online platform such as Google Colaboratory, please make sure to copy the code from the Python files to the ML notebook instead of importing those files.
+
 ### /code
 This folder contains **2 Jupyter notebooks**:
 
