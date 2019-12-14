@@ -8,6 +8,10 @@ _A project by Team Apple (Data Mining & Machine Learning, HEC Lausanne, Fall 201
 * Nicolas MAUROUX
 * Frederic SPYCHER
 
+## Link to Video
+
+The video for our project is available on [YouTube](https://www.youtube.com/watch?v=P8ZMFhJx0Js). 
+
 ## Project Structure
 
 To make the project work smoothly, it is advised to download all the files and run the notebooks locally (on Jupyter, for example). If using an online platform such as Google Colaboratory, please make sure to copy the code from the Python files to the ML notebook instead of importing those files.
@@ -16,6 +20,7 @@ To make the project work smoothly, it is advised to download all the files and r
 This folder contains **2 Jupyter notebooks**:
 
 * `Kickstarter_notebook_Team_Apple_EDA.ipynb`: the first part of the project; contains an introduction, explanations about the data cleaning process, as well as the exploratory data analysis (EDA).
+    * **NB**: Squarify needs to be installed for the correct display of some graphs.
 * `Kickstarter_notebook_Team_Apple_ML.ipynb`: the second part of the project; contains the various machine learning (ML) models trained in the course of this project, with some conclusions.
     * **NB**: Keras and Tensorflow have to be installed for the neural network to run.
 
@@ -37,5 +42,5 @@ This folder contains the original dataset, retrieved from [https://kaggle.com/ke
 ### /documents
 This folder contains:
 
-* The final PowerPoint presentation
+* `Kickstarter_presentation_Team_Apple.pptx`: The final PowerPoint presentation.
 * `ml_results.xlsx`: an Excel document containing an overview of each machine learning model's scores with various features and types of scaling (standard/min-max) and encoding (one-hot/label).
